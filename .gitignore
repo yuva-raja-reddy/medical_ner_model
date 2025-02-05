@@ -1,0 +1,38 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+
+# Model directories
+model-best/
+model-last/
+
+# Large training files
+train.spacy
+*.dylib
+*.so
+*.dll
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
